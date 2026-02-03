@@ -26,7 +26,7 @@
               'theme_location' => 'primary',
               'container' => false,
               'menu_class' => 'nav-list',
-              'fallback_cb' => false,
+              'fallback_cb' => 'wp_page_menu',
           )
       );
       ?>
